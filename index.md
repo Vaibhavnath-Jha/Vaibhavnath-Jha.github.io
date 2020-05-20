@@ -1,9 +1,11 @@
-## Welcome to a website all related to python
+# Welcome to a website all related to python
 
 I'm going to share my work here!
 
-# 1. Automating MS Paint
-Using PyAutoGui library one can automate any application. [Here](https://github.com/Vaibhavnath-Jha/Automate-MSPaint) I've tried to automate MS Paint to draw concentric circles and sqaures. The final results look like this ->
+## 1. Automating MS Paint
+Using PyAutoGui library one can automate any application. I've tried to automate MS Paint to draw concentric circles and sqaures. The code and some example images are [here](https://github.com/Vaibhavnath-Jha/Automate-MSPaint).
 
-![Circle](https://github.com/Vaibhavnath-Jha/Automate-MSPaint/blob/master/PNG%20files/circled.png)
-![Sqaure](https://github.com/Vaibhavnath-Jha/Automate-MSPaint/blob/master/PNG%20files/Sqaured.png)
+## Up next..
+
+### *K-Means Clustering*
+#### Stay tuned!
