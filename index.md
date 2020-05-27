@@ -10,7 +10,7 @@ The code and some example images can be found below:<br/>
 
 
 ## 2. Visualizing K-means Clustering 
-K-means Clustering algorithm is one of the fundamental algorithms used in machine learning. It enables researchers to visualize hidden patterns and study distinguishing properties of a random set of data, which in turn allows them to convert that random data into powerful information. Use Cases are ever expanding.<br/>
+K-means Clustering algorithm is one of the fundamental algorithms used in machine (Unsupervised) learning. It enables researchers to visualize hidden clusters in a random set of data, which in turn allows them to convert that random data into powerful information. Use Cases are ever expanding.<br/>
 The code and some example images can be found below:<br/>
 [_**here**_](https://github.com/Vaibhavnath-Jha/Kmeans-Clustering).
 
