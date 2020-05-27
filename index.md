@@ -1,10 +1,20 @@
-# Here you'll find everything related to python
-
-I'm going to share my work here! 
+# Welcome aboard! :seedling:
+Here you will find everything that is related to python.<br/> From Data Science related projects to family games and many more.<br/>
+Hope you all like it! 
 
 ## 1. Automating MS Paint
-Using PyAutoGui library one can automate any application. I've tried to automate MS Paint to draw concentric circles and sqaures. The code and some example images are [here](https://github.com/Vaibhavnath-Jha/Automate-MSPaint).
+We have all used *MS Paint* at some point in our lives, but its capabilites are limited... or so you thought.<br/> 
+Using PyAutoGui library one can automate any application. For now I've tried to automate MS Paint to draw concentric circles and sqaures. The possibilites are endless.<br/>
+The code and some example images can be found below:<br/>
+[_**here**_](https://github.com/Vaibhavnath-Jha/Automate-MSPaint).
+
+
+## 2. Visualizing K-means Clustering 
+K-means Clustering algorithm is one of the fundamental algorithms used in machine learning. It enables researchers to visualize hidden patterns and study distinguishing properties of a random set of data, which in turn allows them to convert that random data into powerful information. Use Cases are ever expanding.<br/>
+The code and some example images can be found below:<br/>
+[_**here**_](https://github.com/Vaibhavnath-Jha/Kmeans-Clustering).
+
 
 ## Coming up next...
-### *K-Means Clustering*
-##### Stay tuned!
+### *Perceptron and Neural Nets*
+##### Stay tuned, Weekly Posts!
