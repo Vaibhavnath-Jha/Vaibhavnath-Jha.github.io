@@ -1,4 +1,4 @@
-# Python Playgroung
+# Python Playground
 
 Webpage to display my python projects, this is will be my platform to showcase my work to the world. 
 
