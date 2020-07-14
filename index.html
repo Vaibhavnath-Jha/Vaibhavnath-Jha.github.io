@@ -39,7 +39,7 @@
                 </div>
             </div>
         </nav>
-        <div class="parallax" >
+		<div class="parallax">
             <header class="masthead text-white text-center">
                 <div class="container d-flex align-items-center flex-column">
                     <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/profile_picture_new.png" alt="profile picture">
@@ -68,40 +68,56 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+                <div class="row justify-content-center" id="myBtnContainer">
+				 	<button class="btn btn-info" onclick="filterSelection('all')" style="margin-right: 12px"><i>Show all</i></button>
+					<button class="btn btn-primary" onclick="filterSelection('DS')">#Data Science</button>
+					<button class="btn btn-primary" onclick="filterSelection('OR')">#Operations Research</button>
+					<!--<button class="btn special btn-primary" onclick="filterSelection('R')">#R</button>-->
+					<button class="btn btn-primary" onclick="filterSelection('Fun')">#Fun Projects</button>
+				</div>
+				<br>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-left">
                     <!-- Portfolio Items-->
                     <!--Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Perceptron.png" alt="Linear Perceptron"/>
+                    	<div class="filterDiv DS">
+	                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal3">
+	                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+	                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+	                            </div><img class="img-fluid" src="assets/img/portfolio/Perceptron.png" alt="Linear Perceptron"/>
+	                        </div>
                         </div>
                     </div>
                     <!--Item 4-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/CLSP.png" alt="Production"/>
-                        </div>
+                    	<div class="filterDiv OR">
+	                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+	                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+	                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+	                            </div><img class="img-fluid" src="assets/img/portfolio/CLSP.png" alt="Production"/>
+	                        </div>
+	                    </div>
                     </div>
                     <!--Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/MS_Paint.png" alt="Automating MS Paint"/>
-                        </div>
+                    	<div class="filterDiv Fun">
+	                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal1">
+	                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+	                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+	                            </div><img class="img-fluid" src="assets/img/portfolio/MS_Paint.png" alt="Automating MS Paint"/>
+	                        </div>
+	                    </div>
                     </div>
                     <!--Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/kmeans.png" alt="kmeans Clustering"/>
-                        </div>
+                    	<div class="filterDiv DS">
+	                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal2">
+	                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+	                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+	                            </div><img class="img-fluid" src="assets/img/portfolio/kmeans.png" alt="kmeans Clustering"/>
+	                        </div>
+	                    </div>
                     </div>
                 </div>
             </div>
@@ -281,7 +297,7 @@
                     <!--Counter-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                     	<h4 class="mb-4">TOTAL VISITS</h4>
-						<h3 class="num"><span class='numscroller' data-min='1' data-max='43' data-delay='5' data-increment='3'>0</span></h3>
+						<h3 class="num"><span class='numscroller' data-min='1' data-max='58' data-delay='5' data-increment='3'>0</span></h3>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4">
@@ -311,5 +327,6 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/filterbutton.js"></script>
     </body>
 </html>
