@@ -72,8 +72,8 @@
                 <div class="row justify-content-center" id="myBtnContainer">
 				 	<button class="btn btn-info" onclick="filterSelection('all')">Show all</button>
 					<button class="btn btn-primary" onclick="filterSelection('DS')">#Data Science</button>
-					<button class="btn btn-primary" onclick="filterSelection('OR')">#Operations Research</button>
-					<!--<button class="btn btn-primary" onclick="filterSelection('R')">#R</button>-->
+					<button class="btn btn-primary" onclick="filterSelection('Operation')">#Operations Research</button>
+					<button class="btn btn-primary" onclick="filterSelection('R')">#R</button>
 					<button class="btn btn-primary" onclick="filterSelection('Fun')">#Fun Projects</button>
 				</div>
 				<br>
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                     <!--Item 4-->
-                    <div class="filterDiv OR col-md-6 col-lg-4 mb-5">
+                    <div class="filterDiv Operation col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -118,6 +118,14 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/Mail_eraser.png" alt="Mail Eraser"/>
+                        </div>
+	                </div>
+	                <!--Item 6-->
+	                <div class="filterDiv Operation R col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/Forecast.png" alt="Time Series"/>
                         </div>
 	                </div>
                 </div>
@@ -262,6 +270,36 @@
                                     <p class="mb-3">An Email ID serves as a medium of communication between you and various platforms/services you have signed up for, because of which your inbox gets filled with irrelevant promotions and newsletter.<br/>To tackle this problem I made a program using a python library <u>Selenium</u> to automate the process of deleting emails. The user will have to insert the sender's name in the <i>master_list.json</i> and the algorithm will take care of rest. The code can be found below:<br/><a class="btn btn-info" href="https://github.com/Vaibhavnath-Jha/Gmail-Bulk-Delete" style="margin-top: 6px">Here</a></p>
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Mail_eraser.png" alt="Mail Eraser"/>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal6Label">Time Series Forecasting:</h2>
+                                    <div><h3 class="pt-2 text-secondary">ARIMA Models</h3></div>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-3">Time Series Forecasting is crucial for many companies and if done correctly it can be very rewarding. Based on Box-Jenkins Methodology, ARIMA models are very powerful Data-Driven models which can perform exceptionally well and yeilds reliable forecasts, but finding a suitable fit requires time and skill as it is an iterative process.<br>It is said and I quote "Box-Jenkins ARIMA modeling is more an art than science." I have done my analysis considering such ARIMA models on <i><b>RStudio</b></i> as well as <i><b>Python</b></i>. Analysis Reports and Source code can be found below:<br/><a class="btn btn-info"  href="https://vaibhavnath-jha.github.io/ARIMA_Modelling/" style="margin-top: 6px">RStudio</a><a class="btn btn-info" href="https://github.com/Vaibhavnath-Jha/ARIMA_Modelling/blob/master/SARIMA.ipynb" style="margin-top: 6px">Python</a></p>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Forecast.png" alt="Time series"/>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
