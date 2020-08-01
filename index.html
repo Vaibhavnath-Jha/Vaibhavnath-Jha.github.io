@@ -393,9 +393,11 @@
         <script src="js/numscroller.js"></script>
         <!--Tooltip-->
         <script>
-		$(document).ready(function(){
-		  $('[data-toggle="tooltip"]').tooltip({animation: true});   
-		});
+        if($(window).width() >= 768){
+            $(document).ready(function(){
+              $('[data-toggle="tooltip"]').tooltip({animation: true});   
+            });
+        }
 		</script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
