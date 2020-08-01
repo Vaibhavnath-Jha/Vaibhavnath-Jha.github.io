@@ -84,7 +84,7 @@
                     <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Automating MS-Paint"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/MS_Paint.png" alt="Automating MS Paint"/>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                     <div class="filterDiv DS col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Kmeans Clustering"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/kmeans.png" alt="kmeans Clustering"/>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                     <div class="filterDiv DS col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Linear Perceptron"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/Perceptron.png" alt="Linear Perceptron"/>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                     <div class="filterDiv Operation col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Lot Sizing"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/CLSP.png" alt="Production"/>
                         </div>
 	                </div>
@@ -116,7 +116,7 @@
 	                <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Automating Deletion"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/Mail_eraser.png" alt="Mail Eraser"/>
                         </div>
 	                </div>
@@ -124,7 +124,7 @@
 	                <div class="filterDiv Operation R col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Time Series Forecasting"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/Forecast.png" alt="Time Series"/>
                         </div>
 	                </div>
@@ -391,11 +391,14 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <!--Number counter JS-->
         <script src="js/numscroller.js"></script>
+        <!--Tooltip-->
+        <script>
+		$(document).ready(function(){
+		  $('[data-toggle="tooltip"]').tooltip({animation: true});   
+		});
+		</script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="js/filterbutton.js"></script>
