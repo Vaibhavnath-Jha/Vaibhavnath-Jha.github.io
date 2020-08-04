@@ -51,7 +51,7 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;	
 }
 /*Support for mobile devices*/
 @media only screen and (max-device-width: 1366px) {

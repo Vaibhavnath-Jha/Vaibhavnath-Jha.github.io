@@ -22,6 +22,8 @@
         <!-- Fonts CSS-->
         <link rel="stylesheet" href="css/heading.css">
         <link rel="stylesheet" href="css/body.css">
+        <!-- AOS-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
@@ -41,7 +43,7 @@
         </nav>
 		<div class="parallax">
             <header class="masthead text-white text-center">
-                <div class="container d-flex align-items-center flex-column">
+                <div class="container d-flex align-items-center flex-column" data-aos="zoom-in" data-aos-delay="300">
                     <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/profile_picture_new.png" alt="profile picture">
                     <!-- Masthead Heading-->
                     <h1 class="masthead-heading mb-0">WELCOME ABOARD!</h1>
@@ -59,18 +61,18 @@
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <div class="text-center">
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
                 </div>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom" data-aos="fade-up" data-aos-delay="100">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!--Filter Buttons-->
-                <div class="row justify-content-center" id="myBtnContainer">
-				 	<button class="btn btn-info" onclick="filterSelection('all')">Show all</button>
+                <div class="row justify-content-center" id="myBtnContainer" data-aos="fade-up" data-aos-delay="100">
+				 	<button class="btn btn-info" onclick="filterSelection('all')">All</button>
 					<button class="btn btn-primary" onclick="filterSelection('DS')">#Data Science</button>
 					<button class="btn btn-primary" onclick="filterSelection('Operation')">#Operations Research</button>
 					<button class="btn btn-primary" onclick="filterSelection('R')">#R</button>
@@ -81,50 +83,62 @@
                 <div class="row justify-content-left">
                     <!-- Portfolio Items-->
                     <!--Item 1-->
-                    <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
+                    <div class="filterDiv Fun col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Automating MS-Paint"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                	<span class="mb-3"><i>Automating MS Paint</i></span>
+                                </div>
                             </div><img class="img-fluid" src="assets/img/portfolio/MS_Paint.png" alt="Automating MS Paint"/>
                         </div>
                     </div>
                     <!--Item 2-->
-                    <div class="filterDiv DS col-md-6 col-lg-4 mb-5">
+                    <div class="filterDiv DS col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Kmeans Clustering"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                	<span class="mb-3"><i>Kmeans Clustering</i></span></i>
+                                </div>
                             </div><img class="img-fluid" src="assets/img/portfolio/kmeans.png" alt="kmeans Clustering"/>
                         </div>
                     </div>
                     <!--Item 3-->
-                    <div class="filterDiv DS col-md-6 col-lg-4 mb-5">
+                    <div class="filterDiv DS col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Linear Perceptron"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                	<span class="mb-3"><i>Linear Perceptron</i></span></i>
+                                </div>
                             </div><img class="img-fluid" src="assets/img/portfolio/Perceptron.png" alt="Linear Perceptron"/>
                         </div>
                     </div>
                     <!--Item 4-->
-                    <div class="filterDiv Operation col-md-6 col-lg-4 mb-5">
+                    <div class="filterDiv Operation col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Lot Sizing"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                	<span class="mb-3"><i>Lot Sizing</i></span></i>
+                                </div>
                             </div><img class="img-fluid" src="assets/img/portfolio/CLSP.png" alt="Production"/>
                         </div>
 	                </div>
 	                <!--Item 5-->
-	                <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
+	                <div class="filterDiv Fun col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Automating Deletion"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                	<span class="mb-3"><i>Automating Mail Deletion</i></span></i>
+                                </div>
                             </div><img class="img-fluid" src="assets/img/portfolio/Mail_eraser.png" alt="Mail Eraser"/>
                         </div>
 	                </div>
 	                <!--Item 6-->
-	                <div class="filterDiv Operation R col-md-6 col-lg-4 mb-5">
+	                <div class="filterDiv Operation R col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white" data-toggle="tooltip" data-placement="bottom" title="Time Series Forecasting"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                	<span class="mb-3"><i>Time Series Forecasting</i></span></i>
+                                </div>
                             </div><img class="img-fluid" src="assets/img/portfolio/Forecast.png" alt="Time Series"/>
                         </div>
 	                </div>
@@ -312,21 +326,21 @@
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <div class="text-center">
+                <div class="text-center" data-aos="zoom-in" data-aos-delay="200">
                     <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
                 </div>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light" data-aos="zoom-in" data-aos-delay="200">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
+                <div class="row" >
+                    <div class="col-lg-4 ml-auto" data-aos="fade-right" data-aos-delay="200">
                         <p class="pre-wrap lead">Computer language has always been part of my education. It was until many years later that I came across Python and got serious about learning it. The vast community of Python really helps you grasp the language quickly.</p>
                     </div>
-                    <div class="col-lg-4 mr-auto">
+                    <div class="col-lg-4 mr-auto" data-aos="fade-left" data-aos-delay="200">
                         <p class="pre-wrap lead">Python Playground was started to showcase my passion for coding and making interesting programs. Gradually I learnt enough to display my work, although I still have to go a long way!</p>
                     </div>
                 </div>
@@ -334,7 +348,7 @@
         </section>
         <!-- Contact section -->
         <section class="page-section" id="contact">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="200">
                 <!-- Contact Section Heading-->
                 <div class="text-center">
                     <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
@@ -361,17 +375,17 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
                         <h4 class="mb-4">LOCATION</h4>
                         <p class="pre-wrap lead mb-0"> Magdeburg, Germany</p>
                     </div>
                     <!--Counter-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="col-lg-4 mb-5 mb-lg-0" data-aos="flip-up" data-aos-delay="250">
                     	<h4 class="mb-4">TOTAL VISITS</h4>
 						<h3 class="num"><span class='numscroller' data-min='1' data-max='92' data-delay='5' data-increment='10'>0</span></h3>
                     </div>
                     <!-- Footer Social Icons-->
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-left" data-aos-delay="200">
                         <h4 class="mb-4">AROUND THE WEB</h4>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/vaibhavnath.jha"><i class="fab fa-fw fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/vaibhavnathjha"><i class="fab fa-fw fa-linkedin-in"></i></a>
@@ -390,19 +404,17 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <!--Number counter JS-->
-        <script src="js/numscroller.js"></script>
-        <!--Tooltip-->
-        <script>
-        if($(window).width() >= 768){
-            $(document).ready(function(){
-              $('[data-toggle="tooltip"]').tooltip({animation: true});   
-            });
-        }
-		</script>
+        <script src="js/numscroller.js"></script>   
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!--Filter buttons-->
         <script src="js/filterbutton.js"></script>
+        <!--AOS theme-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
     </body>
 </html>
