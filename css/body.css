@@ -85,7 +85,7 @@
   box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-@media only screen and (max-device-width: 768px){
+@media only screen and (max-device-width: 1366px){
 	.btn{
 		margin: 2px 4px;
 	}
