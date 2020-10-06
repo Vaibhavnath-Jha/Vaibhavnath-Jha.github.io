@@ -42,10 +42,10 @@
 /*Parallax Effect*/
 .parallax {
   /* The image used */
-  background-image: url("../assets/img/bg_final.png");
+  background-image: url("../assets/img/hero.JPG");
 
   /* Set a specific height */
-  min-height: 825px; 
+  min-height: 1020px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -88,5 +88,24 @@
 @media only screen and (max-device-width: 1366px){
 	.btn{
 		margin: 2px 4px;
+    margin-right: 0px;
 	}
+}
+
+body{
+  background: linear-gradient(+45deg, #eecda3, #ef629f, #ffafbd, #ffc3a0);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
