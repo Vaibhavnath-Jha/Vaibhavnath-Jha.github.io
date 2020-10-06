@@ -150,6 +150,9 @@ body{
 
 @media only screen and (max-device-width: 1366px) {
   .context {
-    top: 10px;
+    top: 15px;
+  }
+  .context h1{
+    font-size: 30px;
   }
 }
