@@ -39,26 +39,8 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
         U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/*Parallax Effect*/
-.parallax {
-  /* The image used */
-  background-image: url("../assets/img/hero.JPG");
 
-  /* Set a specific height */
-  min-height: 1020px; 
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;	
-}
-/*Support for mobile devices*/
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
 
 .filterDiv {
 	display: none; /* Hidden by default */
@@ -93,9 +75,9 @@
 }
 
 body{
-  background: linear-gradient(+45deg, #eecda3, #ef629f, #ffafbd, #ffc3a0);
+  background: linear-gradient(-45deg, #eee8e8,#2c3e50, #85bce0, #ffafbd);
   background-size: 400% 400%;
-  animation: gradient 30s ease infinite;
+  animation: gradient 20s ease infinite;
 }
 
 @keyframes gradient {
@@ -109,3 +91,6 @@ body{
     background-position: 0% 50%;
   }
 }
+
+
+

@@ -6182,6 +6182,35 @@ button.bg-dark:focus {
   background-color: transparent !important;
 }
 
+.bg-parallax{
+  background-image: url("../assets/img/hero.jpg");
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+/*Support for mobile devices*/
+@media only screen and (max-device-width: 1366px) {
+  .bg-parallax {
+    background-attachment: scroll;
+  }
+}
+
+.bg-custom{
+  border-radius: 20px;
+  background: rgba(102,102,102, 0.7);
+  opacity: 0.1;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
 .border {
   border: 0.125rem solid #dee2e6 !important;
 }
@@ -10259,4 +10288,3 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
-

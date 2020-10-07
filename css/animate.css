@@ -13,7 +13,7 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:35vh;
+    top:30vh;
     
 }
 
@@ -149,10 +149,13 @@ body{
 }
 
 @media only screen and (max-device-width: 1366px) {
-  .context {
-    top: 15px;
+.context {
+    top: 20vh;
   }
-  .context h1{
+.context h1{
     font-size: 30px;
+  }
+.context h2{
+    font-size: 20px;
   }
 }
