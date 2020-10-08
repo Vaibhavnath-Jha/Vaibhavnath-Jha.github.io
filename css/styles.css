@@ -6183,9 +6183,9 @@ button.bg-dark:focus {
 }
 
 .bg-parallax{
-  background-image: url("../assets/img/hero.jpg");
+  background-image: url("../assets/img/hero.JPG");
   /* Set a specific height */
-  min-height: 1202px;
+  height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
