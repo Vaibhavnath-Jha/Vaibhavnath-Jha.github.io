@@ -81,6 +81,7 @@
 					<button class="btn btn-primary" onclick="filterSelection('DS')">#Data Science</button>
 					<button class="btn btn-primary" onclick="filterSelection('Operation')">#Operations Research</button>
 					<button class="btn btn-primary" onclick="filterSelection('R')">#R</button>
+					<button class="btn btn-primary" onclick="filterSelection('GAMS')">#GAMS</button>
 					<button class="btn btn-primary" onclick="filterSelection('Tab')">#Tableau</button>
 					<button class="btn btn-primary" onclick="filterSelection('Fun')">#Fun Projects</button>
 				</div>
@@ -88,6 +89,16 @@
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
                     <!-- Portfolio Items-->
+                    <!--Item 9-->
+                    <div class="filterDiv Operation GAMS col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                	<span class="mb-3"><i>Vehicle Routing Problem</i></span></i>
+                                </div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/Tableau.png" alt="TableauViz"/>
+                        </div>
+                    </div>
                     <!--Item 8-->
                     <div class="filterDiv DS Tab col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
@@ -406,6 +417,35 @@
                 </div>
             </div>
         </div>
+        <!--Modal 9-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal9Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal9Label">Optimizing Vehicle Routing</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-3">Vehicle Routing Problem (VRP) is one of the most studied problem in the field of Operations Research. There are as many ways to tackle the problem as there are variations of it.</p>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Tableau.png" alt="TableauViz"/>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- About section -->
         <section class="page-section bg-parallax font-size-bold text-white" id="about">
             <div class="container bg-custom" data-aos="zoom-in" data-aos-delay="100">
@@ -474,7 +514,7 @@
 			            <h3 class="resume-title" style="font-size: 30px"><i class="fas fa-chevron-circle-right"></i> Education</h3>
 			            <div class="resume-item">
 			              <ul><h4><strong><li> Masters in Business Analytics &amp; Operations Research</li></strong></h4></ul>
-			              <p><em>Otto-von-Guericke Universitat, Magdeburg, GER | 2019 - 2021</em></p>
+			              <p><em>Otto-von-Guericke Universitat, Magdeburg, GER | 2019 - 2022</em></p>
 			              <p>Specializing in Supply Chain Management and mathematical optimization. Minor subjects include Machine Learning, Forecasting and Java with great pratical and industrial exposure.</p>
                           <p>Thesis: Human Choice Behavior in Car Driving.</p>
 			            </div>
