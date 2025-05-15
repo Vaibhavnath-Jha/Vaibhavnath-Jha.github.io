@@ -1,457 +1,586 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167949971-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-167949971-1');
-        </script>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Python Playground!</title>
-        <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
-                <!-- Font Awesome icons (free version)-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet">
-        <!-- Progress Bars-->
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <!-- Fonts CSS-->
-        <link rel="stylesheet" href="css/heading.css">
-        <link rel="stylesheet" href="css/body.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <!-- AOS-->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    </head>
-    <body id="page-top">
-        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">PYTHON PLAYGROUND</a>
-                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-		<div class="context">
-			<div class="container d-flex align-items-center flex-column" data-aos="zoom-in" data-aos-delay="300">
-				<img class="masthead-avatar mb-5" src="assets/img/new1.png" alt="profile picture" width="320px" height="320px">
-            	<h1 class="masthead-heading mb-0 text-center" data-aos="zoom-in" data-aos-delay="350">WELCOME ABOARD!</h1>
-            	<h2 class="pre-wrap masthead-subheading font-weight-light text-white mb-0 text-center" data-aos="zoom-in" data-aos-delay="400">Data Science - Operations Research - Fun Projects </h2>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PPEXH7GLCF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-PPEXH7GLCF');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Python Playground!</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        crossorigin="anonymous"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Progress Bars-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Fonts CSS-->
+    <link rel="stylesheet" href="css/heading.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">PYTHON PLAYGROUND</a>
+            <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#portfolio">PORTFOLIO</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="area" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    	</div >
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
-                    <h2 class="page-section-heading text-white mb-0 d-inline-block">PORTFOLIO</h2>
+    </nav>
+    <div class="context">
+        <div class="container d-flex align-items-center flex-column" data-aos="zoom-in" data-aos-delay="300">
+            <img class="masthead-avatar mb-5" src="assets/img/new1.png" alt="profile picture" width="320px"
+                height="320px">
+            <h1 class="masthead-heading mb-0 text-center" data-aos="zoom-in" data-aos-delay="350">WELCOME ABOARD!</h1>
+            <h2 class="pre-wrap masthead-subheading font-weight-light text-white mb-0 text-center" data-aos="zoom-in"
+                data-aos-delay="400">Data Science - Operations Research - Fun Projects </h2>
+        </div>
+    </div>
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="page-section-heading text-white mb-0 d-inline-block">PORTFOLIO</h2>
+            </div>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light" data-aos="fade-up" data-aos-delay="100">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!--Filter Buttons-->
+            <div class="row justify-content-center" id="myBtnContainer" data-aos="fade-up" data-aos-delay="100">
+                <button class="btn btn-info" onclick="filterSelection('all')">All</button>
+                <button class="btn btn-primary" onclick="filterSelection('DS')">#Data Science</button>
+                <button class="btn btn-primary" onclick="filterSelection('Operation')">#Operations Research</button>
+                <button class="btn btn-primary" onclick="filterSelection('R')">#R</button>
+                <button class="btn btn-primary" onclick="filterSelection('Tab')">#Tableau</button>
+                <button class="btn btn-primary" onclick="filterSelection('Fun')">#Fun Projects</button>
+            </div>
+            <br>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <!-- Portfolio Items-->
+                <!--Item 8-->
+                <div class="filterDiv DS Tab col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <span class="mb-3"><i>Games-Vs-Movies</i></span></i>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/Tableau.png" alt="TableauViz" />
+                    </div>
                 </div>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light" data-aos="fade-up" data-aos-delay="100">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                <!--Item 7-->
+                <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <span class="mb-3"><i>Hangman Game</i></span></i>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/Hangman.png" alt="Game" />
+                    </div>
                 </div>
-                <!--Filter Buttons-->
-                <div class="row justify-content-center" id="myBtnContainer" data-aos="fade-up" data-aos-delay="100">
-				 	<button class="btn btn-info" onclick="filterSelection('all')">All</button>
-					<button class="btn btn-primary" onclick="filterSelection('DS')">#Data Science</button>
-					<button class="btn btn-primary" onclick="filterSelection('Operation')">#Operations Research</button>
-					<button class="btn btn-primary" onclick="filterSelection('R')">#R</button>
-					<button class="btn btn-primary" onclick="filterSelection('Tab')">#Tableau</button>
-					<button class="btn btn-primary" onclick="filterSelection('Fun')">#Fun Projects</button>
-				</div>
-				<br>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                    <!-- Portfolio Items-->
-                    <!--Item 8-->
-                    <div class="filterDiv DS Tab col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                	<span class="mb-3"><i>Games-Vs-Movies</i></span></i>
-                                </div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Tableau.png" alt="TableauViz"/>
-                        </div>
+                <!--Item 2-->
+                <div class="filterDiv DS col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <span class="mb-3"><i>Kmeans Clustering</i></span></i>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/kmeans.png" alt="kmeans Clustering" />
                     </div>
-                    <!--Item 7-->
-	                <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                	<span class="mb-3"><i>Hangman Game</i></span></i>
-                                </div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Hangman.png" alt="Game"/>
-                        </div>
-	                </div>
-                    <!--Item 2-->
-                    <div class="filterDiv DS col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                	<span class="mb-3"><i>Kmeans Clustering</i></span></i>
-                                </div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/kmeans.png" alt="kmeans Clustering"/>
-                        </div>
+                </div>
+                <!--Item 3-->
+                <div class="filterDiv DS col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <span class="mb-3"><i>Linear Perceptron</i></span></i>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/Perceptron.png"
+                            alt="Linear Perceptron" />
                     </div>
-                    <!--Item 3-->
-                    <div class="filterDiv DS col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                	<span class="mb-3"><i>Linear Perceptron</i></span></i>
-                                </div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Perceptron.png" alt="Linear Perceptron"/>
-                        </div>
+                </div>
+                <!--Item 4-->
+                <div class="filterDiv Operation col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <span class="mb-3"><i>Lot Sizing</i></span></i>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/CLSP.png" alt="Production" />
                     </div>
-                    <!--Item 4-->
-                    <div class="filterDiv Operation col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                	<span class="mb-3"><i>Lot Sizing</i></span></i>
-                                </div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/CLSP.png" alt="Production"/>
-                        </div>
-	                </div>
-	               	<!--Item 6-->
-	                <div class="filterDiv Operation R col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                	<span class="mb-3"><i>Time Series Forecasting</i></span></i>
-                                </div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Forecast.png" alt="Time Series"/>
-                        </div>
-	                </div>
-	                <!--Item 5-->
-	                <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                	<span class="mb-3"><i>Automating Mail Deletion</i></span></i>
-                                </div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/Mail_eraser.png" alt="Mail Eraser"/>
-                        </div>
-	                </div>
-	                <!--Item 1-->
-                    <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                	<span class="mb-3"><i>Automating MS Paint</i></span>
-                                </div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/MS_Paint.png" alt="Automating MS Paint"/>
-                        </div>
+                </div>
+                <!--Item 6-->
+                <div class="filterDiv Operation R col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <span class="mb-3"><i>Time Series Forecasting</i></span></i>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/Forecast.png" alt="Time Series" />
+                    </div>
+                </div>
+                <!--Item 5-->
+                <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <span class="mb-3"><i>Automating Mail Deletion</i></span></i>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/Mail_eraser.png" alt="Mail Eraser" />
+                    </div>
+                </div>
+                <!--Item 1-->
+                <div class="filterDiv Fun col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfoliomodal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <span class="mb-3"><i>Automating MS Paint</i></span>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/MS_Paint.png"
+                            alt="Automating MS Paint" />
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Portfolio Modal-->
-        <!--Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfoliomodal1" tabindex="-1" role="dialog" aria-labelledby="#portfoliomodal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Automating MS Paint</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">We have all used <i>MS Paint</i> at some point in our lives, but its capabilites are limited...or so you thought. Using PyAutoGui library one can automate any application.<br/>For now I've tried to automate MS Paint to draw concentric circles and sqaures.<br/> The possibilites are endless.<br/> The code and some example images can be found below:
-                                    <br/><a class="btn btn-info" href="https://github.com/Vaibhavnath-Jha/Automate-MSPaint" style="margin-top: 6px">Here</a></p>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/MS_Paint.png" alt="Automating MS Paint"/>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+        </div>
+    </section>
+    <!-- Portfolio Modal-->
+    <!--Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfoliomodal1" tabindex="-1" role="dialog"
+        aria-labelledby="#portfoliomodal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Automating MS Paint</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-3">We have all used <i>MS Paint</i> at some point in our lives, but its
+                                    capabilites are limited...or so you thought. Using PyAutoGui library one can
+                                    automate any application.<br />For now I've tried to automate MS Paint to draw
+                                    concentric circles and sqaures.<br /> The possibilites are endless.<br /> The code
+                                    and some example images can be found below:
+                                    <br /><a class="btn btn-info"
+                                        href="https://github.com/Vaibhavnath-Jha/Automate-MSPaint"
+                                        style="margin-top: 6px">Here</a>
+                                </p>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/MS_Paint.png"
+                                    alt="Automating MS Paint" />
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Close Window</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfoliomodal2" tabindex="-1" role="dialog" aria-labelledby="#portfoliomodal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfoliomodal2Label">Visualizing K-Means Clustering</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">K-means Clustering algorithm is one of the fundamental algorithms used in machine (Unsupervised) learning. It enables researchers to visualize hidden clusters in a random set of data, which in turn allows them to convert that random data into powerful information.<br/> I have done the same but <u>without the help of any Data Science Library.</u><br/>Use Cases are ever expanding.<br/>The code and some example images can be found below:<br/><a class="btn btn-info" href="https://github.com/Vaibhavnath-Jha/Kmeans-Clustering" style="margin-top: 6px">Here</a></p>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/kmeans.png" alt="kmeans clustering"/>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+    </div>
+    <!--Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfoliomodal2" tabindex="-1" role="dialog"
+        aria-labelledby="#portfoliomodal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="portfoliomodal2Label">
+                                    Visualizing K-Means Clustering</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-3">K-means Clustering algorithm is one of the fundamental algorithms used
+                                    in machine (Unsupervised) learning. It enables researchers to visualize hidden
+                                    clusters in a random set of data, which in turn allows them to convert that random
+                                    data into powerful information.<br /> I have done the same but <u>without the help
+                                        of any Data Science Library.</u><br />Use Cases are ever expanding.<br />The
+                                    code and some example images can be found below:<br /><a class="btn btn-info"
+                                        href="https://github.com/Vaibhavnath-Jha/Kmeans-Clustering"
+                                        style="margin-top: 6px">Here</a></p>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/kmeans.png"
+                                    alt="kmeans clustering" />
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Close Window</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfoliomodal3" tabindex="-1" role="dialog" aria-labelledby="#portfoliomodal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfoliomodal3Label">Perceptron in Action</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">Every Data Science enthusiast must have heard about Neural Networks and its capabilities. One needs to know that any function can be approximated to arbitrary accuracy by using two layers of such Neural Net.<br/>Perceptron on the other hand is a Linear Classifier with limited capabilities. Nevertheless, Here I have visualized Perceptron training <u>without using any Data Science library.</u><br/>The code and some example GIF can be found below:<br/><a class="btn btn-info" href="https://github.com/Vaibhavnath-Jha/NeuralNet" style="margin-top: 6px">Here</a></p>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Perceptron.png" alt="Linear Perceptron"/>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+    </div>
+    <!--Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfoliomodal3" tabindex="-1" role="dialog"
+        aria-labelledby="#portfoliomodal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="portfoliomodal3Label">
+                                    Perceptron in Action</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-3">Every Data Science enthusiast must have heard about Neural Networks and
+                                    its capabilities. One needs to know that any function can be approximated to
+                                    arbitrary accuracy by using two layers of such Neural Net.<br />Perceptron on the
+                                    other hand is a Linear Classifier with limited capabilities. Nevertheless, Here I
+                                    have visualized Perceptron training <u>without using any Data Science
+                                        library.</u><br />The code and some example GIF can be found below:<br /><a
+                                        class="btn btn-info" href="https://github.com/Vaibhavnath-Jha/NeuralNet"
+                                        style="margin-top: 6px">Here</a></p>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Perceptron.png"
+                                    alt="Linear Perceptron" />
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Close Window</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal4Label">Deciding Production Lot Sizes</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">First thing to know about Capacitated Lot Sizing Problem is that it belongs to the class of <i>NP-Hard problems</i>. With that in mind the main objective is to determine the production lot sizes of every item on each machine per period, while satisfying the demand and minimizing the cost associated with it.<br/>I have implemented a small instance of this problem using <u>DOCPLEX</u>, a python library from CPLEX.<br/>The code, method used and some example solutions can be found below:<br/><a class="btn btn-info" href="https://github.com/Vaibhavnath-Jha/Capacitated-Lot-Sizing" style="margin-top: 6px">Here</a></p>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/CLSP.png" alt="Production"/>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+    </div>
+    <!--Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal4Label">Deciding
+                                    Production Lot Sizes</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-3">First thing to know about Capacitated Lot Sizing Problem is that it
+                                    belongs to the class of <i>NP-Hard problems</i>. With that in mind the main
+                                    objective is to determine the production lot sizes of every item on each machine per
+                                    period, while satisfying the demand and minimizing the cost associated with
+                                    it.<br />I have implemented a small instance of this problem using <u>DOCPLEX</u>, a
+                                    python library from CPLEX.<br />The code, method used and some example solutions can
+                                    be found below:<br /><a class="btn btn-info"
+                                        href="https://github.com/Vaibhavnath-Jha/Capacitated-Lot-Sizing"
+                                        style="margin-top: 6px">Here</a></p>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/CLSP.png"
+                                    alt="Production" />
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Close Window</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal5Label">Automating Email Deletion</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">An Email ID serves as a medium of communication between you and various platforms/services you have signed up for, because of which your inbox gets filled with irrelevant promotions and newsletter.<br/>To tackle this problem I made a program using a python library <u>Selenium</u> to automate the process of deleting emails. The user will have to insert the sender's name in the <i>master_list.json</i> and the algorithm will take care of rest. The code can be found below:<br/><a class="btn btn-info" href="https://github.com/Vaibhavnath-Jha/Gmail-Bulk-Delete" style="margin-top: 6px">Here</a></p>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Mail_eraser.png" alt="Mail Eraser"/>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+    </div>
+    <!--Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal5Label">
+                                    Automating Email Deletion</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-3">An Email ID serves as a medium of communication between you and various
+                                    platforms/services you have signed up for, because of which your inbox gets filled
+                                    with irrelevant promotions and newsletter.<br />To tackle this problem I made a
+                                    program using a python library <u>Selenium</u> to automate the process of deleting
+                                    emails. The user will have to insert the sender's name in the
+                                    <i>master_list.json</i> and the algorithm will take care of rest. The code can be
+                                    found below:<br /><a class="btn btn-info"
+                                        href="https://github.com/Vaibhavnath-Jha/Gmail-Bulk-Delete"
+                                        style="margin-top: 6px">Here</a></p>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Mail_eraser.png"
+                                    alt="Mail Eraser" />
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Close Window</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal6Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal6Label">Time Series Forecasting:</h2>
-                                    <div><h3 class="pt-2 text-secondary">ARIMA Models</h3></div>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">Time Series Forecasting is crucial for many companies and if done correctly it can be very rewarding. Based on Box-Jenkins Methodology, ARIMA models are very powerful Data-Driven models which can perform exceptionally well and yeilds reliable forecasts, but finding a suitable fit requires time and skill as it is an iterative process.<br>It is said and I quote "Box-Jenkins ARIMA modeling is more an art than science." I have done my analysis considering such ARIMA models on <i><b>RStudio</b></i> as well as <i><b>Python</b></i>. Analysis Reports and Source code can be found below:<br/><a class="btn btn-info"  href="https://vaibhavnath-jha.github.io/ARIMA_Modelling/" style="margin-top: 6px">RStudio</a><a class="btn btn-info" href="https://github.com/Vaibhavnath-Jha/ARIMA_Modelling/blob/master/SARIMA.ipynb" style="margin-top: 6px">Python</a></p>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Forecast.png" alt="Time series"/>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+    </div>
+    <!--Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal6Label">Time
+                                    Series Forecasting:</h2>
+                                <div>
+                                    <h3 class="pt-2 text-secondary">ARIMA Models</h3>
                                 </div>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-3">Time Series Forecasting is crucial for many companies and if done
+                                    correctly it can be very rewarding. Based on Box-Jenkins Methodology, ARIMA models
+                                    are very powerful Data-Driven models which can perform exceptionally well and yeilds
+                                    reliable forecasts, but finding a suitable fit requires time and skill as it is an
+                                    iterative process.<br>It is said and I quote "Box-Jenkins ARIMA modeling is more an
+                                    art than science." I have done my analysis considering such ARIMA models on
+                                    <i><b>RStudio</b></i> as well as <i><b>Python</b></i>. Analysis Reports and Source
+                                    code can be found below:<br /><a class="btn btn-info"
+                                        href="https://vaibhavnath-jha.github.io/ARIMA_Modelling/"
+                                        style="margin-top: 6px">RStudio</a><a class="btn btn-info"
+                                        href="https://github.com/Vaibhavnath-Jha/ARIMA_Modelling/blob/master/SARIMA.ipynb"
+                                        style="margin-top: 6px">Python</a></p>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Forecast.png"
+                                    alt="Time series" />
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Close Window</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Modal 7-->
-        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal7Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal7Label">Hangman on Python</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">We have all played Hangman or as known in India<i> 'Hollywood/Bollywood'</i>, at least once in our childhood. Thus, I decided to bring back the nostalgia by making the same game we used play in free periods. Thanks to OMDb's API serive, the best part about this built is the non-requirement of any movie database which helped to deploy the project online on a static page. Therefore with an active internet connection anyone can play this game. Click the <b>Play</b> button to be redirected to the game.<br/>(Note: Play on a bigger screen for better experience.)<br/><a class="btn btn-info"  href="https://vaibhavnath-jha.github.io/Hangman-Game/" style="margin-top: 6px"><i class="fas fa-play fa-fw"></i> Play</a></p>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Hangman.png" alt="Game"/>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+    </div>
+    <!--Modal 7-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal7Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal7Label">Hangman
+                                    on Python</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-3">We have all played Hangman or as known in India<i>
+                                        'Hollywood/Bollywood'</i>, at least once in our childhood. Thus, I decided to
+                                    bring back the nostalgia by making the same game we used play in free periods.
+                                    Thanks to OMDb's API serive, the best part about this built is the non-requirement
+                                    of any movie database which helped to deploy the project online on a static page.
+                                    Therefore with an active internet connection anyone can play this game. Click the
+                                    <b>Play</b> button to be redirected to the game.<br />(Note: Play on a bigger screen
+                                    for better experience.)<br /><a class="btn btn-info"
+                                        href="https://vaibhavnath-jha.github.io/Hangman-Game/"
+                                        style="margin-top: 6px"><i class="fas fa-play fa-fw"></i> Play</a></p>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Hangman.png" alt="Game" />
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Close Window</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Modal 8-->
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal8Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal8Label">Vizzing with Tableau</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">Tableau is a powerful data visualizing tool which enables users to create interactive dashboards or so called <em>Viz</em> in Tableau's environment. It is a must for any data professional for delivering effective reports.<br>I have compared and summarized the growth of Video Games against Cinemas by taking 20 titles which generated highest revenue from the last 20 years. The result and the dashboard can be seen by clicking the link down below.<br><a class="btn btn-info"  href="https://public.tableau.com/profile/vaibhavnath.jha1133#!/vizhome/Games_Vs_Movies/Dashboard" style="margin-top: 6px">Show Viz</a></p>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Tableau.png" alt="TableauViz"/>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+    </div>
+    <!--Modal 8-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal8Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal8Label">Vizzing
+                                    with Tableau</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-3">Tableau is a powerful data visualizing tool which enables users to
+                                    create interactive dashboards or so called <em>Viz</em> in Tableau's environment. It
+                                    is a must for any data professional for delivering effective reports.<br>I have
+                                    compared and summarized the growth of Video Games against Cinemas by taking 20
+                                    titles which generated highest revenue from the last 20 years. The result and the
+                                    dashboard can be seen by clicking the link down below.<br><a class="btn btn-info"
+                                        href="https://public.tableau.com/profile/vaibhavnath.jha1133#!/vizhome/Games_Vs_Movies/Dashboard"
+                                        style="margin-top: 6px">Show Viz</a></p>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Tableau.png"
+                                    alt="TableauViz" />
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Close Window</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!--Counter-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="mb-4">PAGE VISITS</h4>
-                        <h3 class="num"><span class='numscroller' data-min='1' data-max='612' data-delay='10' data-increment='10'>0</span></h3>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="mb-4">AROUND THE WEB</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/vaibhavnathjha"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Vaibhavnath-Jha"><i class="fab fa-fw fa-github"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:vaibhavnath.jha@gmail.com"><i class="fa fa-envelope"></i></a>
-                    </div>
-                    <!-- Footer TimeRecord-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="mb-4">HOURS OF WORK</h4>
-                        <h3 class="num"><span class='numscroller' data-min='1' data-max='523' data-delay='10' data-increment='15'>0</span></h3>
-                    </div>               
+    </div>
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!--Counter-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="mb-4">PAGE VISITS</h4>
+                    <h3 class="num"><span class='numscroller' data-min='1' data-max='612' data-delay='10'
+                            data-increment='10'>0</span></h3>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="mb-4">AROUND THE WEB</h4>
+                    <a class="btn btn-outline-light btn-social mx-1"
+                        href="https://www.linkedin.com/in/vaibhavnathjha"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Vaibhavnath-Jha"><i
+                            class="fab fa-fw fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:vaibhavnath.jha@gmail.com"><i
+                            class="fa fa-envelope"></i></a>
+                </div>
+                <!-- Footer TimeRecord-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="mb-4">HOURS OF WORK</h4>
+                    <h3 class="num"><span class='numscroller' data-min='1' data-max='523' data-delay='10'
+                            data-increment='15'>0</span></h3>
                 </div>
             </div>
-        </footer>
-        <!-- Copyright Section-->
-        <section class="copyright py-4 text-center text-white">
-            <div class="container"><small class="pre-wrap">Copyright © Python Playground 2023</small></div>
-        </section>
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-        <div class="scroll-to-top d-lg-none position-fixed">
-        	<a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <!--Number counter JS-->
-        <script src="js/numscroller.js"></script>   
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!--Filter buttons-->
-        <script src="js/filterbutton.js"></script>
-        <!--AOS theme-->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <!--Contact form -->
-		<script>
-			AOS.init();
-		</script>
-    </body>
+    </footer>
+    <!-- Copyright Section-->
+    <section class="copyright py-4 text-center text-white">
+        <div class="container"><small class="pre-wrap">Copyright © Python Playground 2023</small></div>
+    </section>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!--Number counter JS-->
+    <script src="js/numscroller.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!--Filter buttons-->
+    <script src="js/filterbutton.js"></script>
+    <!--AOS theme-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--Contact form -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
 </html>
